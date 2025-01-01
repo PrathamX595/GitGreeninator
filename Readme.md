@@ -1,6 +1,6 @@
 # GitGreeninator
 
-GitGreeninator is a simple bash script designed to help you quickly set up your GitHub profile with a series of commits, making your contribution graph green. This script automates the process of creating a repository, making commits, and pushing them to GitHub.
+It's just a fun and simple script that can make your github graph green from the day you specify.
 
 ## Features
 
