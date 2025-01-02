@@ -41,5 +41,19 @@ It's just a fun and simple script that can make your github graph green from the
 
 Follow the prompts to enter your GitHub username, email, and the number of days for which you want to generate commits. The script will handle the rest.
 
+## Issues
+
+facing this issue "/bin/bash^M: bad interpreter: No such file or directory" ?
+run this command
+```bash
+sed -i -e 's/\r$//' GitGreeninator.sh
+```
+
+the issue arrises if you have been editing the file in windows as it introduces CRLF as line endings
+
+you shoul be all good if you edit it in any linux distribution.
+
 ⚠️ **Disclaimer**  
 This script is intended for educational purposes only. Do not use it to deceive anyone for official purposes. Misuse of this script may violate GitHub's terms of service and could lead to account suspension or other consequences.
+
+
